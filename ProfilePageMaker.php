@@ -25,7 +25,7 @@ class ProfilePageMaker {
     }
     ?>
     <div class="wrap">
-    <div id="icon-options-general" class="icon32"><br /></div><h2>モデル追加</h2>
+    <div id="icon-options-general" class="icon32"><br /></div><h2>ProfilePageMaker</h2>
         <form action="" method="post">
             <?php
             wp_nonce_field('shoptions');
@@ -56,7 +56,7 @@ class ProfilePageMaker {
                 </div><p>Width input[left:right]</p>
                   <p><input id="inputtext9" name="img_options[left]" type="text" style='width:20%;' value="<?php  echo $show_left ?>" />
                   ：<input id="inputtext10" name="img_options[right]" type="text" style='width:20%;' value="<?php  echo $show_right ?>" /></p>
-<p class="submit"><input type="submit" name="Submit" class="button-primary" value="変更を保存" /></p>
+<p class="submit"><input type="submit" name="Submit" class="button-primary" value="value save" /></p>
                 </div>
                 <div style="width:60%; float: right;">
                 <!--サイドバー-->
